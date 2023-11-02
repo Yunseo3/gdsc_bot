@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo List Slack Bot</title>
+</head>
+<body>
+<h1>Todo List Slack Bot</h1>
+
+<form action="/slack/events" method="post">
+    <input type="text" name="payload" placeholder="Slack 메시지 입력">
+    <button type="submit">메시지 전송</button>
+</form>
+</body>
+</html>
